@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon /Users/Anat/fullstack/jr-phase/wikistack/app.js"
+    "start": "nodemon /Users/shui/Desktop/grace-hopper/wikistack/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "expresss": "0.0.0",
     "html-template-tag": "^3.2.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.4.0"
   }
 }
